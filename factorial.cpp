@@ -1,11 +1,13 @@
 #include "functions.h"
 #include <iostream>
+#include <stdio.h>
+
 //recurrision
 //arc
 int factorial(int n){
     if(n<0)
     {
-        std::cout<<"no negative";
+        printf("no negative");
         return -1;
     }
     if(n!=1&&n>1){
